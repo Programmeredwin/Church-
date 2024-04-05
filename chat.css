@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0; /* Add margin: 0; to reset default margins */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+body {
+  background-color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 200px; /* Adjust the margin to accommodate the fixed topnav */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topnav {
+  background-color: #02c00b;
+  overflow: hidden;
+  height: 100vh; /* Set height to 100% of viewport height */
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.topnav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.topnav li {
+  display: block;
+}
+
+.topnav a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Change text-decoration to none */
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #f5fd0c;
+}
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  background-color: #02c00b;
+  
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+  color: #010101;
+  font-family: 'Times New Roman', Times, serif;
+}
+header{
+  background-color: #02c00b;
+}
+
+p{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:  20px;
+}
+#chat-box {
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px solid #0dfb04;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+#chat-message {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #02c00b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c8ef07;
+}
+
+
